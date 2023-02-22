@@ -69,7 +69,7 @@ export async function getStaticProps() {
                 }
             })
         },
-        revalidate: 10             //allows us to change static page upon request within 10 seconds
+        revalidate: 1           //allows us to change static page upon request within 10 seconds
     }
 }
 
